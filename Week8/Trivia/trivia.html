@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            function checkAnswer(choice) {
+                let result = document.getElementById('mc-result');
+
+                if (choice === 'SSH') {
+                    document.getElementById('ssh').style.backgroundColor = 'green';
+                    result.textContent = 'Correct!';
+                } else {
+                    document.getElementById(choice).style.backgroundColor = 'red';
+                    result.textContent = 'Incorrect';
+                }
+            }
+
+            function checkFree() {
+                let input = document.getElementById('free-input');
+                let result = document.getElementById('free-result');
+                let answer = input.value;
+
+                if (answer.trim().toLowerCase() === 'kali linux') {
+                    input.style.backgroundColor = 'green';
+                    result.textContent = 'Correct!';
+                } else {
+                    input.style.backgroundColor = 'red';
+                    result.textContent = 'Incorrect';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice</h2>
+                <hr>
+                <p>Which protocol is commonly used for secure remote administration of Linux systems?</p>
+
+                <button id="ftp" onclick="checkAnswer('ftp')">FTP</button>
+                <button id="ssh" onclick="checkAnswer('SSH')">SSH</button>
+                <button id="smtp" onclick="checkAnswer('smtp')">SMTP</button>
+                <button id="dns" onclick="checkAnswer('dns')">DNS</button>
+
+                <p id="mc-result"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <p>What operating system is widely used for penetration testing?</p>
+
+                <input id="free-input" type="text">
+                <button onclick="checkFree()">Check Answer</button>
+
+                <p id="free-result"></p>
+            </div>
+        </div>
+    </body>
+</html>
