@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Cybersecurity Beginner Hub</title>
+    </head>
+    <body>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="security.html">Security</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tools.html">Tools</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="linux.html">Linux</a>
+            </li>
+        </ul>
+
+        <div class="header">
+            <h1>Cybersecurity Beginner Hub</h1>
+            <p>Learn cybersecurity in simple words</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <h3>Security Basics</h3>
+                        <p>Learn about passwords, encryption, and staying safe online.</p>
+                        <a href="security.html">Go to Security →</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <h3>Security Tools</h3>
+                        <p>Discover tools like Nmap and Wireshark.</p>
+                        <a href="tools.html">Go to Tools →</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <h3>Linux</h3>
+                        <p>Learn why Linux is used in cybersecurity.</p>
+                        <a href="linux.html">Go to Linux →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tip-section">
+                <h3>Security Tip</h3>
+                <button id="tipBtn">Get a Tip</button>
+                <p id="tipDisplay"></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>CS50x 2026 - Homepage Project</p>
+        </div>
+
+        <script>
+            let tips = [
+                "Use strong passwords.",
+                "Enable two-factor authentication.",
+                "Update your software regularly.",
+                "Don't click on suspicious links."
+            ];
+
+            let button = document.getElementById('tipBtn');
+            let display = document.getElementById('tipDisplay');
+
+            button.onclick = function() {
+                let random = Math.floor(Math.random() * tips.length);
+                display.innerHTML = tips[random];
+            };
+        </script>
+    </body>
+</html>
