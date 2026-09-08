@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <h2>{{ info["name"] }} ({{ info["symbol"] }})</h2>
+    <p>Current price: {{ info["price"] | usd }}</p>
+{% endblock %}
