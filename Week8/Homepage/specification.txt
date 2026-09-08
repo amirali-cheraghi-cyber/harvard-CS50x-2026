@@ -1,0 +1,19 @@
+My homepage project is called Cybersecurity Beginner Hub.
+
+The website is designed for beginners who want to learn basic cybersecurity concepts.
+
+The website has four HTML pages:
+- index.html: the main homepage
+- security.html: basic cybersecurity concepts
+- tools.html: an introduction to common security tools
+- linux.html: basic information about Linux and its use in cybersecurity
+
+The website uses Bootstrap for navigation and layout.
+
+I wrote CSS in styles.css to customize the appearance of the website.
+
+I also used JavaScript on the homepage to display a random cybersecurity tip when the user clicks the button.
+
+The website includes information about cybersecurity, the CIA triad, authentication and authorization, passwords, security tools, Linux, Kali Linux, and basic Linux commands.
+
+All pages are connected through navigation links.
