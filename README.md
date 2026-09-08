@@ -1,149 +1,138 @@
-# harvard-CS50x-2026
 # CS50x — Introduction to Computer Science
 
-### Harvard University · CS50x 2026
+**Harvard University · CS50x 2026**
 
-A structured collection of my coursework, problem sets, and projects completed during **CS50x — Introduction to Computer Science** by Harvard University.
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Certificate](https://img.shields.io/badge/Certificate-Earned-blue)
 
-> **Status:** ✅ Completed
-> **Certificate:** Earned
-> **Year:** 2026
+## About
 
----
+This repository contains my completed coursework and projects from **CS50x — Introduction to Computer Science** by Harvard University.
 
-## Overview
+The course provided a comprehensive introduction to computer science and programming, covering algorithms, data structures, memory, Python, SQL, web development, Flask, and independent software development.
 
-CS50x provided a comprehensive foundation in computer science, programming, algorithms, data structures, databases, and web development.
-
-This repository documents my progression from introductory programming with Scratch and C to Python, SQL, JavaScript, Flask, and web development.
-
-Each assignment is organized independently with its source code, project documentation, and CS50 verification results.
-
----
+I completed the required coursework and final project and earned the CS50x certificate.
 
 ## Coursework
 
-| Week | Subject         | Projects                              | Status |
-| :--: | --------------- | ------------------------------------- | :----: |
-|  00  | Scratch         | Scratch                               |    ✅   |
-|  01  | C               | Hello · Mario · Credit                |    ✅   |
-|  02  | Arrays          | Scrabble · Readability · Substitution |    ✅   |
-|  03  | Algorithms      | Sort · Plurality · Runoff             |    ✅   |
-|  04  | Memory          | Volume · Filter · Recover             |    ✅   |
-|  05  | Data Structures | Inheritance · Speller                 |    ✅   |
-|  06  | Python          | Sentimental · DNA                     |    ✅   |
-|  07  | SQL             | Songs · Movies · Fiftyville           |    ✅   |
-|  08  | Web Development | Trivia · Homepage                     |    ✅   |
-|  09  | Flask           | Birthdays · Finance                   |    ✅   |
-|  10  | Final Project   | Personal Portfolio Website            |    ✅   |
-
----
+| Week    | Topic           | Projects                            | Status      |
+| ------- | --------------- | ----------------------------------- | ----------- |
+| Week 00 | Scratch         | Scratch                             | ✅ Completed |
+| Week 01 | C               | Hello, Mario, Credit                | ✅ Completed |
+| Week 02 | Arrays          | Scrabble, Readability, Substitution | ✅ Completed |
+| Week 03 | Algorithms      | Sort, Plurality, Runoff             | ✅ Completed |
+| Week 04 | Memory          | Volume, Filter, Recover             | ✅ Completed |
+| Week 05 | Data Structures | Inheritance, Speller                | ✅ Completed |
+| Week 06 | Python          | Sentimental, DNA                    | ✅ Completed |
+| Week 07 | SQL             | Songs, Movies, Fiftyville           | ✅ Completed |
+| Week 08 | Web Development | Trivia, Homepage                    | ✅ Completed |
+| Week 09 | Flask           | Birthdays, Finance                  | ✅ Completed |
+| Week 10 | Final Project   | Personal Portfolio Website          | ✅ Completed |
 
 ## Verification
 
-All submitted problem sets were evaluated using CS50's automated testing tools.
+The following are the final verification results recorded during the course.
 
-### Week 0
+### Week 00
 
 | Project | Check50 | Style50 |
-| ------- | :-----: | :-----: |
-| Scratch | **8/8** |    —    |
+| ------- | ------: | ------: |
+| Scratch |     8/8 |     N/A |
 
-### Week 1 — C
+### Week 01
 
-| Project      |  Check50  |  Style50 |
-| ------------ | :-------: | :------: |
-| Hello        |  **5/5**  | **1.00** |
-| Mario — Less |  **6/10** | **1.00** |
-| Credit       | **17/17** | **1.00** |
+| Project      | Check50 | Style50 |
+| ------------ | ------: | ------: |
+| Hello        |     5/5 |    1.00 |
+| Mario (Less) |    6/10 |    1.00 |
+| Credit       |   17/17 |    1.00 |
 
-### Week 2 — Arrays
+### Week 02
 
-| Project      |  Check50  |  Style50 |
-| ------------ | :-------: | :------: |
-| Scrabble     | **13/13** | **0.92** |
-| Readability  | **12/12** | **0.96** |
-| Substitution | **19/19** | **1.00** |
+| Project      | Check50 | Style50 |
+| ------------ | ------: | ------: |
+| Scrabble     |   13/13 |    0.92 |
+| Readability  |   12/12 |    0.96 |
+| Substitution |   19/19 |    1.00 |
 
-### Week 3 — Algorithms
+### Week 03
 
-| Project   |  Check50  |  Style50 |
-| --------- | :-------: | :------: |
-| Sort      |  **3/3**  |     —    |
-| Plurality | **14/14** | **1.00** |
-| Runoff    | **25/25** | **1.00** |
+| Project   | Check50 | Style50 |
+| --------- | ------: | ------: |
+| Sort      |     3/3 |     N/A |
+| Plurality |   14/14 |    1.00 |
+| Runoff    |   25/25 |    1.00 |
 
-### Week 4 — Memory
+### Week 04
 
-| Project       |  Check50  |  Style50 |
-| ------------- | :-------: | :------: |
-| Volume        |  **5/5**  | **1.00** |
-| Filter — More | **23/23** | **0.91** |
-| Recover       |  **7/7**  | **0.95** |
+| Project       | Check50 | Style50 |
+| ------------- | ------: | ------: |
+| Volume        |     5/5 |    1.00 |
+| Filter (More) |   23/23 |    0.91 |
+| Recover       |     7/7 |    0.95 |
 
-### Week 5 — Data Structures
+### Week 05
 
-| Project     |  Check50  |  Style50 |
-| ----------- | :-------: | :------: |
-| Inheritance |  **9/9**  | **0.96** |
-| Speller     | **10/10** | **1.00** |
+| Project     | Check50 | Style50 |
+| ----------- | ------: | ------: |
+| Inheritance |     9/9 |    0.96 |
+| Speller     |   10/10 |    1.00 |
 
-### Week 6 — Python
+### Week 06
 
-| Project                   |  Check50  |  Style50 |
-| ------------------------- | :-------: | :------: |
-| Sentimental — Hello       |  **3/3**  | **1.00** |
-| Sentimental — Mario       |  **9/9**  | **1.00** |
-| Sentimental — Cash        | **10/10** | **1.00** |
-| Sentimental — Readability | **10/10** | **1.00** |
-| DNA                       | **29/29** | **1.00** |
+| Project                    | Check50 | Style50 |
+| -------------------------- | ------: | ------: |
+| Sentimental — Hello        |     3/3 |    1.00 |
+| Sentimental — Mario (Less) |     9/9 |    1.00 |
+| Sentimental — Cash         |   10/10 |    1.00 |
+| Sentimental — Readability  |   10/10 |    1.00 |
+| DNA                        |   29/29 |    1.00 |
 
-### Week 7 — SQL
+### Week 07
 
-| Project    |  Check50  | Style50 |
-| ---------- | :-------: | :-----: |
-| Songs      |  **9/11** |    —    |
-| Movies     | **14/14** |    —    |
-| Fiftyville |  **3/3**  |    —    |
+| Project    | Check50 | Style50 |
+| ---------- | ------: | ------: |
+| Songs      |    9/11 |     N/A |
+| Movies     |   14/14 |     N/A |
+| Fiftyville |     3/3 |     N/A |
 
-### Week 8 — Web Development
+### Week 08
 
 | Project  | Check50 | Style50 |
-| -------- | :-----: | :-----: |
-| Trivia   | **1/1** |    —    |
-| Homepage | **9/9** |    —    |
+| -------- | ------: | ------: |
+| Trivia   |     1/1 |     N/A |
+| Homepage |     9/9 |     N/A |
 
-### Week 9 — Flask
+### Week 09
 
-| Project   |  Check50  |  Style50 |
-| --------- | :-------: | :------: |
-| Birthdays |  **1/1**  |     —    |
-| Finance   | **21/21** | **0.97** |
+| Project   | Check50 | Style50 |
+| --------- | ------: | ------: |
+| Birthdays |     1/1 |     N/A |
+| Finance   |   21/21 |    0.97 |
 
----
-
-## Technology Stack
+## Technologies
 
 Throughout CS50x, I worked with:
 
-**Languages**
-
-`C` · `Python` · `SQL` · `JavaScript`
-
-**Web Technologies**
-
-`HTML` · `CSS` · `JavaScript` · `Flask`
-
-**Core Concepts**
-
-`Algorithms` · `Data Structures` · `Memory Management` · `Pointers` · `Recursion` · `Searching` · `Sorting` · `Hash Tables` · `Linked Lists` · `Databases` · `SQL` · `HTTP`
-
----
+* C
+* Python
+* SQL
+* SQLite
+* HTML5
+* CSS3
+* JavaScript
+* Flask
+* Jinja
+* Git
+* GitHub
+* Scratch
 
 ## Repository Structure
 
 ```text
 CS50x/
+├── Certificate/
+│   └── CS50x-Certificate.pdf
 │
 ├── Week0/
 │   └── Scratch/
@@ -192,109 +181,69 @@ CS50x/
 │   ├── Birthdays/
 │   └── Finance/
 │
+├── Week10/
+│   └── README.md
+│
 └── README.md
 ```
 
-Every project directory contains its own documentation and relevant source files.
-
----
-
 ## Learning Progression
 
-```text
-Scratch
-   │
-   ▼
-C Programming
-   │
-   ▼
-Arrays & Algorithms
-   │
-   ▼
-Memory Management
-   │
-   ▼
-Data Structures
-   │
-   ▼
-Python
-   │
-   ▼
-SQL & Databases
-   │
-   ▼
-HTML / CSS / JavaScript
-   │
-   ▼
-Flask
-   │
-   ▼
-Final Project
-```
+The coursework followed a progression from fundamental programming concepts to increasingly complex software development:
 
-This progression established a foundation for further work in software development and cybersecurity.
+**Scratch → C → Arrays → Algorithms → Memory → Data Structures → Python → SQL → Web Development → Flask → Final Project**
 
----
+This progression provided practical experience with both low-level programming concepts and higher-level web application development.
 
 ## Final Project
 
 ### Personal Portfolio Website
 
-The final CS50x project was a personal portfolio website developed using:
+The CS50x Final Project is a **Personal Portfolio Website** developed using:
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
-The website was designed as a foundation for a professional personal portfolio and will be used to showcase future projects, technical skills, cybersecurity work, programming experience, and achievements.
+The project was designed to present my technical background, cybersecurity interests, programming experience, and projects.
 
-The final project's source code is maintained separately and is therefore **not included in this repository**.
+The source code is maintained separately from this coursework repository and will be further developed and included in my professional portfolio in the future.
 
----
+A project demonstration video was also recorded and uploaded to YouTube as part of the CS50x Final Project submission requirements.
 
-## Repository Purpose
+**Project Video:** https://youtu.be/CbpmSGTKSVw
 
-This repository serves as a technical record of my CS50x coursework and demonstrates practical experience with:
+## Certificate
 
-* Procedural programming
-* Algorithmic problem solving
-* Data structures
-* Memory management
-* Python development
-* Database querying
-* Web development
-* Backend development with Flask
-* Software engineering fundamentals
+I successfully completed **CS50x — Introduction to Computer Science** from Harvard University.
 
-The repository is structured to make individual assignments easy to review while preserving the progression of the course as a whole.
+The certificate confirms the successful completion of the CS50x coursework and final project.
 
----
+**[View CS50x Certificate](Certificate/CS50x-Certificate.pdf)**
 
-## About CS50x
+## Repository Notes
 
-**CS50x — Introduction to Computer Science** is Harvard University's introductory computer science course.
+This repository is intended to document my CS50x learning journey, completed coursework, verification results, and progression through the course.
 
-The course covers fundamental concepts in computer science through hands-on programming assignments and projects using languages and technologies including C, Python, SQL, HTML, CSS, JavaScript, and Flask.
+Some original solution files are intentionally omitted from individual projects where appropriate. This keeps the repository focused on documenting the work while avoiding unnecessary publication of complete problem-set solutions.
 
----
+The Final Project source code is maintained separately because it is intended to become part of my professional portfolio.
 
 ## Author
 
-### AmirAli Cheraghi
+**AmirAli Cheraghi**
 
-Computer Networking & Software Student
 Cybersecurity & Software Development
 
-**GitHub**
-`github.com/amirali-cheraghi-cyber`
+GitHub: `amirali-cheraghi-cyber`
 
-**LinkedIn**
-`www.linkedin.com/in/amirali-cheraghi-416888412/`
-
----
+LinkedIn: `amirali-cheraghi-416888412`
 
 ## Completion
 
-**CS50x 2026 · Completed ✅**
+**CS50x — Introduction to Computer Science**
 
-Harvard University
+**Status: Completed ✅**
+
+**Certificate: Earned 🎓**
+
