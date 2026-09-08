@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #333;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #ddd;
+}
+
+.tip-section {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.tip-section button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tip-section button:hover {
+    background-color: #218838;
+}
+
+#tipDisplay {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+h2 {
+    color: #0056b3;
+}
+
+.tool {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #ddd;
+}
+
+code {
+    background-color: #eee;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
